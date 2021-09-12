@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c8fff64-0eb9-4cac-8eac-1def79adf940" name="Default Changelist" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/api/movies_summaries.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TinderCards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TinderCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TinderCards.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -103,6 +94,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.api" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,6 +112,14 @@
       <workItem from="1631329434732" duration="11953000" />
       <workItem from="1631415908363" duration="6291000" />
     </task>
+    <task id="LOCAL-00001" summary="Done a lot of things. Been working on codesandbox.io&#10;To recap...&#10;1. Created TinderCards.js that controls the text, movement, shape of card, which is exported to the App.js&#10;2. Added Flask, and backend python.&#10;3. Currently created GET Post from backend to frontend using flask">
+      <created>1631426182355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631426182355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +137,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done a lot of things. Been working on codesandbox.io&#10;To recap...&#10;1. Created TinderCards.js that controls the text, movement, shape of card, which is exported to the App.js&#10;2. Added Flask, and backend python.&#10;3. Currently created GET Post from backend to frontend using flask" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done a lot of things. Been working on codesandbox.io&#10;To recap...&#10;1. Created TinderCards.js that controls the text, movement, shape of card, which is exported to the App.js&#10;2. Added Flask, and backend python.&#10;3. Currently created GET Post from backend to frontend using flask" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/penn_apps_frontend$api.coverage" NAME="api Coverage Results" MODIFIED="1631425129330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/penn_apps_frontend$api.coverage" NAME="api Coverage Results" MODIFIED="1631438961255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
   </component>
 </project>
