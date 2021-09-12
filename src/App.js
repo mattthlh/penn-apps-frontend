@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSprings, animated } from "react-spring";
+import { CardContent } from "@material-ui/core";
 
-function App() {
+import PersonIcon from "@material-ui/icons/Person";
+import MessageIcon from "@material-ui/icons/Message";
+import InfoIcon from "@material-ui/icons/Info";
+
+import { makeStyles } from "@material-ui/styles";
+
+import TinderCards from "./TinderCards.js";
+
+const useStyles = makeStyles({
+  header: {
+    display: "flex",
+    justifyContent: "space-between"
+  },
+  header_icon: {
+    padding: "20px",
+    fill: "orange",
+    fontSize: "large"
+  },
+  mainBackground: {
+    height: "97.3vh",
+    background: "linear-gradient(40deg, #6DD5FA 10%, #FFFFFF 90%)",
+
+    display: "flex",
+    justifyContent: "center",
+    alignContent: "center"
+  }
+});
+
+const App = () => {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.mainBackground}>
+      {/* <div className={classes.header}>
+        <PersonIcon className={classes.header_icon} />
+        <MessageIcon className={classes.header_icon} />
+        <InfoIcon className={classes.header_icon} />
+      </div> */}
+      <div>
+        <TinderCards />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
